@@ -22,6 +22,12 @@ For windows systems.
 .venv\Scripts\activate
 ```
 
+### Having issues running the above command on Windows?
+
+```
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+```
+
 Then you will need install the requirements of your project:
 
 ```
